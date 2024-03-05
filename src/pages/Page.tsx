@@ -9,47 +9,60 @@ const Page2 = () => {
 
         {/* Hero Page */}
 
-        <div className='md:grid-cols-2 grid mt-20  md:items-center md:text-left'>
-      <div className='  text-wrap '>
- <h1 className='font-medium text-[40px]  md-[50px] lg:text-[61px]   normal-case leading-11'>Empowering Tech<br/> Talents Through <br/> Virtual Internships <br/> Program</h1>
- <h3 className='mt-10 leading-relaxed  text-gray-300'>We believe in  creating meaningful tech opportunities for tech training <br/> for students to bridge the gap between theory and practical <br/> experiences  </h3>
-<div className='flex  flex-col md:flex-row gap-4 mt-10'>
-<button className='rounded-full w-[250px] h-[60px]  text-[15px] flex justify-center items-center 
-bg-gradient-to-r from-[#0de5e1] via-#0b35e7 to-[#0b35e7] 
-'>Join Next Cohort </button>
-<button className='rounded-full w-[250px] h-[60px]  text-[15px] flex justify-center items-center 
-border border-white hover:bg-[#0b35e7] hover:border-transparent
-'>How it works</button>
+<div className="lg:grid-cols-2 grid mt-20 md:items-center md:text-left">
+    {/* Text Content Section */}
+    <div className="text-wrap">
+        <h1 className="font-medium text-[40px] md-[50px] lg:text-[61px] normal-case leading-11">
+            Empowering Tech<br/> Talents Through <br/> Virtual Internships <br/> Program
+        </h1>
+        <h3 className="mt-10 leading-relaxed text-gray-300">
+            We believe in creating meaningful tech opportunities for tech training <br/> for students to bridge the gap between theory and practical <br/> experiences
+        </h3>
 
-</div>
- </div>
+        {/* Action Buttons */}
+        <div className="flex flex-col md:flex-row gap-4 mt-10">
+            <button className="rounded-full w-[250px] h-[60px] text-[15px] flex justify-center items-center bg-gradient-to-r from-[#0de5e1] via-[#0b35e7] to-[#0b35e7]">
+                Join Next Cohort
+            </button>
+            <button className="rounded-full w-[250px] h-[60px] text-[15px] flex justify-center items-center border border-white hover:bg-[#0b35e7] hover:border-transparent">
+                How it works
+            </button>
+        </div>
+    </div>
 
-        <img className='rounded object-fill  mt-10 w-[100%] h-full'  src={Afribeath1} alt=""></img>
-  
+    {/* Image Section */}
+    <img className="rounded object-fill mt-10 w-[100%] h-full" src={Afribeath1} alt="" />
 </div>
+
 
 
 
         {/* page2 */}
 
-     <div className=' mt-52 grid gap-8  md:grid-cols-2 w-[100%] md:items-center'>
-  <div className='space-y-4 max-w-[80%] md:max-w-[80%]'>
-  <div className=''>/AFRIBEATH/</div>
-  <div className='text-[40px] md:text-[50px]'>Unlock Your Tech Potential </div>
-  <div className='text-gray-300 text-[18px] leading-8 '> Elevate your skills with Our Virtual Internship Program!
-    Dive into Real-World Projects, connect wit h Industrt Experts, and shape your future 
-    in Technology Today.
-  </div>
-  </div>
- <div className='max-w-[70%] space-y-10 '>
- <div className='text-[30px]'>Our Application Process</div>
-     <div className=' text-gray-300 text-[18px] leading-8]'> Elevate your skills with Our Virtual Internship Program!
-    Dive into Real-World Projects, connect wit h Industry Experts, and shape your future 
-    in Technology Today.
-  </div>
-  <div className='text-[#07e1d6] '>Below is a closer look at how our programs works: </div>
- </div>
-     </div>
+    
+
+
+     <div className="mt-52 grid gap-8 md:grid-cols-2 w-[100%] md:items-center">
+    {/* Left Section */}
+    <div className="space-y-4 max-w-[80%] md:max-w-[80%]">
+        <div>/AFRIBEATH/</div>
+        <div className="text-[40px] md:text-[50px]">Unlock Your Tech Potential</div>
+        <div className="text-gray-300 text-[18px] leading-8">
+            Elevate your skills with Our Virtual Internship Program! Dive into Real-World Projects,
+            connect with Industry Experts, and shape your future in Technology Today.
+        </div>
+    </div>
+
+    {/* Right Section */}
+    <div className="max-w-[70%] space-y-10">
+        <div className="text-[30px]">Our Application Process</div>
+        <div className="text-gray-300 text-[18px] leading-8">
+            Elevate your skills with Our Virtual Internship Program! Dive into Real-World Projects,
+            connect with Industry Experts, and shape your future in Technology Today.
+        </div>
+        <div className="text-[#07e1d6] text-[20px]">Below is a closer look at how our programs work:</div>
+    </div>
+</div>
 
 
      {/* Recommendations */}
@@ -124,8 +137,12 @@ border border-white hover:bg-[#0b35e7] hover:border-transparent
         ensuring a curated and quality pool
     </div>
    <div className="md:flex space-x-10  ">
-   <input type="text"  placeholder="Enter Your Email"   className=" text-left  w-[350px]  h-[60px] outline-none text-[15px] flex justify-center items-center text-black rounded-full bg-white"/>
-    <button className='rounded-full w-[250px] h-[60px]  text-[15px] flex justify-center items-center 
+   <input type="text" id="footer-field" name="footer-field" className="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:ring-2 focus:bg-transparent
+           focus:ring-indigo-200 focus:border-indigo-500 text-base outline-none text-white py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"/>
+
+
+
+    <button className='rounded-full w-[350px] h-[60px]  text-[15px] flex justify-center items-center 
 bg-gradient-to-r from-[#0de5e1] via-#0b35e7 to-[#0b35e7]
 '>Keep me informed </button>
    </div>

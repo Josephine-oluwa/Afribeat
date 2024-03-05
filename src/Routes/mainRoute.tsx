@@ -1,8 +1,7 @@
 import { createBrowserRouter } from "react-router-dom";
 import Layout from "../Components/static/Layout";
 import Error from "../Error/Error";
-import LandingPage from "../pages/LandingPage";
-import Page2 from "../pages/Page2";
+import Page from "../pages/Page";
 
 
 
@@ -13,13 +12,9 @@ export const mainRoute = createBrowserRouter ([
         children: [
             {
                 index: true,
-                element: <LandingPage/>
+                element: <Page/>
             },
-            {
-              
-                path: "/page",
-                element: <Page2/>
-            }
+           
         ]
     },
   
